@@ -8,6 +8,16 @@
 отзывы и ставят произведению оценку. Из пользовательских оценок формируется
 рейтинг произведения.
 
+## Шаблон env-файла
+- SECRET_KEY=
+- ALLOWED_HOSTS=
+- DB_ENGINE=
+- DB_NAME=
+- POSTGRES_USER=
+- POSTGRES_PASSWORD=
+- DB_HOST=
+- DB_PORT=
+
 ## Установка приложения
 На вашем компьютере должны быть установлены Docker и надстройка Docker-compose.
 1. Склонируйте репозиторий YaMDb с GitHub.com:
